@@ -3,12 +3,14 @@
 
     
 
-    <!--
+    
 	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-12"><?php the_title(); ?></h1>
+        <!--
+	    <h1 class="display-12"><?php the_title(); ?></h1>
         <p class="lead">Windows 95/98 stylized Bootstrap 4 theme. Responsive. Minimalistic. Modern.</p>
-    </div
-    >-->
+        -->
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/gifs/construction4.gif">
+    </div>
     
     <!-- personal_page.html -->
 	<div class="container" id="page-content">

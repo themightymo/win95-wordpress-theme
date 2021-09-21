@@ -319,8 +319,8 @@
     <footer class="taskbar">
         <div class="row" style="margin-right: 0px;">
             <div class="col-6">
-                <a href="//alex-b.me" class="btn start-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/users-1.png" class="icon-16">Author</a>
-                <a href="https://github.com/AlexBSoft/win95.css" class="btn start-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/directory_folder_options-5.png" class="icon-16"> GitHub</a>
+                <a href="//tobycryns.com" class="btn start-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/users-1.png" class="icon-16">Toby's Blog</a>
+                <a href="https://github.com/themightymo/win95-wordpress-theme" class="btn start-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/directory_folder_options-5.png" class="icon-16">Win95 WordPress Theme on GitHub</a>
             </div>
             <div class="col-6 time">Win95 Design By <a href="https://github.com/AlexBSoft/win95.css" target="_blank">Alex B</a> | WordPress port by <a href="https://tobycryns.com">Toby Cryns</a></div>
         </div>

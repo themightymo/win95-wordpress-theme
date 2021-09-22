@@ -38,7 +38,8 @@ if ( ! function_exists( 'win95_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-1' => esc_html__( 'Primary', 'win95' ),
+				'primary' => esc_html__( 'Primary menu', 'win95' ),
+				'footer'  => __( 'Secondary menu', 'win95' ),
 			)
 		);
 
@@ -91,3 +92,29 @@ if ( ! function_exists( 'win95_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'win95_setup' );
+
+/* 
+	Display random animated gif 
+	via https://www.kodingmadesimple.com/2018/02/display-random-image-from-folder-php.html
+*/
+
+function getRandomImage($dir_path = NULL){
+	$dir_path = 'wp-content/themes/win95/assets/gifs';
+    if(!empty($dir_path)){
+	    
+		$files = scandir($dir_path);
+		$count = count($files);
+		$index = rand(2, ($count-1));
+		
+        if($count > 2){
+            $index = rand(2, ($count-1));
+            $filename = $files[$index];
+            return '<div class="row" style="text-align:center;"><div class="col-12"><img src="/'.$dir_path."/".$filename.'" alt="'.$filename.'" style="margin:1em auto;"></div></div>';
+            echo $dir_path . $filename;
+        } else {
+            return "The directory is empty!";
+        }
+    } else {
+        return "Please enter valid path to image directory!";
+    }
+}

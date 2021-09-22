@@ -20,6 +20,8 @@
 <body <?php body_class( array('windows-scrollbar', 'bg-cloud') ); ?>>
 <?php wp_body_open(); ?>
 
+
+
 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
         <a class="navbar-brand" href="#">

@@ -1,12 +1,16 @@
 /*
  Theme Name:     Windows 95 by The Mighty Mo!
- Description:    It is 1995 again.
+ Description:    It is 1995 again, and Windows is cutting edge!
  Author:         Toby Cryns
- Version:        1.0.0
+ Version:        0.00000001
 */
-.wp-block-image img {
+
+/* BEGIN Toby's custom styles */
+.card-body img {
     height: auto;
+	max-width: 100%;
 }
+/* END Toby's custom styles */
 
 /*
 

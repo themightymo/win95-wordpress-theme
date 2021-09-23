@@ -22,9 +22,9 @@
 	              <div class="card-body">
 	                <?php the_content(); ?>
 	                <div class="btn-group btn-block" role="group" aria-label="Basic example">
-	                  <button type="button" class="btn btn-secondary"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/envelope_closed-1.png" class="icon-16"> Email me</button>
-	                  <button type="button" class="btn btn-secondary"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/globe_map-4.png" class="icon-16">  Find me IRL</button>
-	                  <button type="button" class="btn btn-secondary">Win95.CSS</button>
+	                  <a href="/contact-3" style="position: relative;-ms-flex: 1 1 auto;flex: 1 1 auto;"><button type="button" class="btn btn-secondary" style="width:100%;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/envelope_closed-1.png" class="icon-16"> Email me</button></a>
+	                  <a href="/blog" style="position: relative;-ms-flex: 1 1 auto;flex: 1 1 auto;"><button type="button" class="btn btn-secondary" style="width:100%;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/globe_map-4.png" class="icon-16">  Read My Blog</button></a>
+	                  <a href="/contact-3" style="position: relative;-ms-flex: 1 1 auto;flex: 1 1 auto;"><button type="button" class="btn btn-secondary" style="width:100%;">Win95.CSS</button></a>
 	                </div>
 	              </div>
 	            </div>

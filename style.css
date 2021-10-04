@@ -171,6 +171,71 @@ Scrollbar (only chrome & safari)
     Button styles
 
 */
+.wp-block-button {}
+.wp-block-button{
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-right-color: #424242;
+    border-bottom-color: #424242;
+    background: silver;
+    color: black;
+    padding: 0 0 4px;
+    border-radius: 1px;
+}
+.wp-block-button:hover {
+    border: 2px inset #fff;
+    background: silver;
+    color: #424242;
+    box-shadow: -1px -1px #000;
+}
+.wp-block-button:focus {
+    border: 2px inset #fff !important;
+    background: silver;
+    color: #424242;
+    box-shadow: -1px -1px #000 !important;
+    outline: 0 !important;
+    background: url(assets/background.bmp);
+}
+.wp-block-button:active {
+    border: 2px inset #fff !important;
+    color: #424242;
+    box-shadow: -1px -1px #000 !important;
+    outline: 0 !important;
+    background: url(assets/background.bmp);
+}
+
+.wp-block-button-primary{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.wp-block-button:focus{
+    outline: 1px dotted;
+}
+.wp-block-button.disabled,.btn:disabled{
+    cursor: default;
+    background-color: silver;
+    border-style: outset;
+    border-color: buttonface;
+    border-right-color: #424242;
+    border-bottom-color: #424242;
+    color: grey;
+    text-shadow: 1px 1px #fff;
+}
+.wp-block-button .wp-block-button__link {
+	background-color: transparent !important;
+	padding: 4px;
+	font-size: inherit;
+}
+.wp-block-button .wp-block-button__link:before {
+	content: url('http://test.local/wp-content/themes/win95/assets/icons/globe_map-4.png');
+}
+
+/* END CUSTOM BUTTON STYLES */
+
+
+/* BEGIN ORIGINAL BUTTON STYLES */
+
 .btn{
     border-width: 2px;
     border-style: outset;
@@ -222,6 +287,7 @@ button:focus{
     text-shadow: 1px 1px #fff;
 }
 
+/* END ORIGINAL BUTTON STYLES */
 /*
 
 CARDS

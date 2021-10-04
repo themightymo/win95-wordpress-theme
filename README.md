@@ -1,6 +1,6 @@
 # This repo is a port (not exactly a clone) of <a href="https://github.com/AlexBSoft/win95.css">Alex B</a>'s amazing Win95.css project.  I'm just getting started creating the WordPress theme version...
 
-##Dreams:
+## Dreams:
 * Use WP menu.
 * Add support for Win95 icons in the button block.
 * Add support to edit footer links in WP.
@@ -8,13 +8,13 @@
 ** Webamp https://github.com/captbaritone/webamp
 ** Clippy.js https://www.smore.com/clippy-js
 
-##Notes:
+## Notes:
 * Icons sourced via [Alex](https://alexbsoft.github.io/win95.css/).
 * Animated gifs sourced from [GifCities](https://gifcities.org/).
 
 
 
-#Below is Alex's readme:
+# Below is Alex's readme:
 
 <p align="center">
     <a href="https://alexbsoft.github.io/win95.css/">

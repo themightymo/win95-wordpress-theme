@@ -4,6 +4,13 @@
 * Use WP menu.
 * Add support for Win95 icons in the button block.
 * Add support to edit footer links in WP.
+* Add support for Clippy and Webamp: 
+** Webamp https://github.com/captbaritone/webamp
+** Clippy.js https://www.smore.com/clippy-js
+
+##Notes:
+* Icons sourced via [Alex](https://alexbsoft.github.io/win95.css/).
+* Animated gifs sourced from [GifCities](https://gifcities.org/).
 
 
 

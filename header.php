@@ -24,7 +24,7 @@
 
 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/computer-3.png"><?php bloginfo('name'); ?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

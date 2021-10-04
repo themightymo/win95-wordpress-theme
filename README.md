@@ -1,4 +1,7 @@
-# This repo is a port (not exactly a clone) of <a href="https://github.com/AlexBSoft/win95.css">Alex B</a>'s amazing Win95.css project.  I'm just getting started creating the WordPress theme version...  What follows is Alex's readme; I'll update soon. - Toby
+# This repo is a port (not exactly a clone) of <a href="https://github.com/AlexBSoft/win95.css">Alex B</a>'s amazing Win95.css project.  I'm just getting started creating the WordPress theme version...
+
+
+#Below is Alex's readme:
 
 <p align="center">
     <a href="https://alexbsoft.github.io/win95.css/">

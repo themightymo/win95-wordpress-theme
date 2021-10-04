@@ -1,5 +1,11 @@
 # This repo is a port (not exactly a clone) of <a href="https://github.com/AlexBSoft/win95.css">Alex B</a>'s amazing Win95.css project.  I'm just getting started creating the WordPress theme version...
 
+##Dreams:
+* Use WP menu.
+* Add support for Win95 icons in the button block.
+* Add support to edit footer links in WP.
+
+
 
 #Below is Alex's readme:
 

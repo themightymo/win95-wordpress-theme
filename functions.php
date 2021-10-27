@@ -99,7 +99,7 @@ add_action( 'after_setup_theme', 'win95_setup' );
 */
 
 function getRandomImage($dir_path = NULL){
-	$dir_path = 'wp-content/themes/win95/assets/gifs';
+	$dir_path = 'wp-content/themes/win95-wordpress-theme/assets/gifs';
     if(!empty($dir_path)){
 	    
 		$files = scandir($dir_path);

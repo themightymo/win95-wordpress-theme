@@ -30,6 +30,20 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	        
+	        
+	        <?php 
+	        wp_nav_menu( 
+				array( 
+					'theme_location'	=>	'primary',
+					'menu_class'		=>	'navbar-nav',
+					'list_item_class'  => 'nav-item', //Added in functions.php
+					'link_class'   => 'nav-link' //Added in functions.php
+				) 
+			);	
+			?>
+	        
+	        
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -53,4 +67,5 @@
             </ul>
         </div>
     </nav>
+    
 <!-- /Navbar -->

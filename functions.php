@@ -35,14 +35,6 @@ if ( ! function_exists( 'win95_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus(
-			array(
-				'primary' => esc_html__( 'Primary menu', 'win95' ),
-				'footer'  => __( 'Secondary menu', 'win95' ),
-			)
-		);
-
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -92,6 +84,48 @@ if ( ! function_exists( 'win95_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'win95_setup' );
+
+
+
+/* 
+	Add classes to wp_nav_menu 
+	via https://stackoverflow.com/questions/26180688/how-to-add-class-to-link-in-wp-nav-menu
+*/
+function add_menu_link_class( $atts, $item, $args ) {
+  if (property_exists($args, 'link_class')) {
+    $atts['class'] = $args->link_class;
+  }
+  return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+function add_menu_list_item_class($classes, $item, $args) {
+  if (property_exists($args, 'list_item_class')) {
+      $classes[] = $args->list_item_class;
+  }
+  return $classes;
+}
+
+function my_nav_menu_submenu_css_class( $classes ) {
+    $classes[] = 'TESTICLES my-new-submenu-class';
+    return $classes;
+}
+add_filter( 'nav_menu_submenu_css_class', 'my_nav_menu_submenu_css_class' );
+
+
+add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
+
+function register_my_menus() {
+	register_nav_menus(
+		array(
+			'primary' => __( 'Primary menu goat', 'win95' ),
+			'footer'  => __( 'Secondary menu sheep', 'win95' ),
+		),
+	);
+}
+add_action( 'init', 'register_my_menus' );
+
+
 
 /* 
 	Display random animated gif 

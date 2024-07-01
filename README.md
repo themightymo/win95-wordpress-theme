@@ -64,6 +64,6 @@ Make your bootstrap look like Windows 95/98.
 
 
 ## Sources:
-
+- AlexB's Original Win95 Repo https://github.com/AlexBSoft/win95.css
 - Webamp https://github.com/captbaritone/webamp
 - Clippy.js https://www.smore.com/clippy-js
